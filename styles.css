@@ -7,7 +7,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: rgba(26, 0, 37, 0);
+    background-color: #1A0025;
     display: flex;
     justify-content: center;
     align-items: flex-start;
