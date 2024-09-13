@@ -1,3 +1,9 @@
+https://sergeymuff.github.io/hmstrcode/
+
+
+
+
+
 # Hamster Kombat Universal Key Generator
 
 ## Overview
