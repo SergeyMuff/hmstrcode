@@ -7,7 +7,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #2c003e;
+    background-color: rgba(26, 0, 37, 0);
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -27,11 +27,11 @@ body {
     max-width: 500px;
     position: relative;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .container {
-    background-color: #1e0027;
+    background-color: #1E0027;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(136, 3, 219, 0.713);
@@ -43,24 +43,24 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #e0b3ff;
+    color: rgba(132, 0, 226, 0.5);
 }
 
 label {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
-    color: #d1a3ff;
+    color: rgba(132, 0, 226, 0.5);
 }
 
 select {
     padding: 10px;
     width: 100%;
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #DDD;
     border-radius: 4px;
-    background-color: #4b006e;
-    color: #e0b3ff;
+    background-color: rgba(132, 0, 226, 0.5);
+    color: #FFFFFF;
     text-align-last: center;
     font-size: large;
 }
@@ -73,7 +73,7 @@ select option {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #6a0080;
+    background-color: rgba(132, 0, 226, 0.5);
     color: white;
     border: none;
     border-radius: 4px;
@@ -85,7 +85,7 @@ select option {
 }
 
 .button:hover {
-    background-color: #4a004d;
+    background-color: rgba(132, 0, 226, 0.664);
 }
 
 .progress-container {
@@ -97,7 +97,7 @@ select option {
 .progress-bar {
     width: 0%;
     height: 20px;
-    background-color: #8a00b0;
+    background-color: rgba(132, 0, 226, 0.5);
     border-radius: 4px;
     transition: width 0.3s;
 }
@@ -105,7 +105,7 @@ select option {
 .progress-text {
     margin-left: 10px;
     font-weight: bold;
-    color: #d1a3ff;
+    color: #FFFFFF;
 }
 
 .key-container {
@@ -116,7 +116,7 @@ select option {
 }
 
 .key-container h2 {
-    color: #d1a3ff;
+    color: rgba(132, 0, 226, 0.5);
 }
 
 .keys-list {
@@ -130,9 +130,9 @@ select option {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    background-color: #2c003e;
+    background-color: #2C003E;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #DDD;
     border-radius: 4px;
     word-wrap: break-word;
 }
@@ -141,7 +141,7 @@ select option {
     flex-grow: 1;
     border: none;
     background: transparent;
-    color: #e0b3ff;
+    color: rgba(132, 0, 226, 0.5);
     font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -152,7 +152,7 @@ select option {
     text-align: center;
     width: 40px;
     padding: 10px 10px;
-    background-color: #6a0080;
+    background-color: rgba(132, 0, 226, 0.5);
     color: white;
     border: none;
     border-radius: 4px;
@@ -163,7 +163,7 @@ select option {
 
 .key-item button {
     margin-left: 10px;
-    background-color: #6a0080;
+    background-color: rgba(132, 0, 226, 0.5);
     border: none;
     padding: 10px 10px;
     border-radius: 4px;
@@ -174,7 +174,7 @@ select option {
 }
 
 .key-item button:hover {
-    background-color: #4a004d;
+    background-color: #4A004D;
 }
 
 .hidden {
@@ -183,7 +183,7 @@ select option {
 
 .copy-status {
     margin-top: 10px;
-    color: #d1a3ff;
+    color: #D1A3FF;
     font-weight: bold;
 }
 
@@ -195,9 +195,9 @@ select option {
 }
 
 #languageSelect {
-    background-color: #4b006e;
-    color: #e0b3ff;
-    border: 1px solid #ddd;
+    background-color: #4B006E;
+    color: #E0B3FF;
+    border: 1px solid #DDD;
     border-radius: 4px;
     padding: 5px;
     font-size: large;
@@ -205,7 +205,7 @@ select option {
 
 .footer-button {
     margin-top: 20px;
-    background-color: #6a0080;
+    background-color: rgba(132, 0, 226, 0.5);
     color: white;
     border: none;
     border-radius: 4px;
@@ -220,30 +220,30 @@ select option {
     h1 {
         font-size: 24px;
     }
-
+    
     label, .button {
         font-size: 14px;
     }
-
+    
     select, .button {
         padding: 8px 16px;
         font-size: 14px;
     }
-
+    
     .footer-button {
         font-size: 14px;
         padding: 8px;
         width: 100%;
     }
-
+    
     .main-container {
         width: 100%;
     }
-
+    
     .container {
         padding: 15px;
     }
-
+    
     .language-selector {
         top: 10px;
         right: 10px;
